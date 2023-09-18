@@ -6,12 +6,16 @@ public class Turista {
     //construtor
     Turista(){}
 
-    turista(string _nome) {this.nome = ; }
     Turista(String _nome, String _cpf){
         this.nome = _nome;
         this.cpf = _cpf;
 
     }
+
+    public Turista(String lindsay) {
+
+    }
+
     //metodos
     public String viajar(){
         return  "Viajou!!!";

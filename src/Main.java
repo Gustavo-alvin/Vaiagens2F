@@ -7,7 +7,7 @@ public class Main {
         Turista mochileira = new Turista();
 
         // Definir forma de cada turista
-        mochileiro.setCpf(Validacao.cpf("123");
+        mochileiro.setCpf(Validacao.cpf("123"));
         mochileira.setNome("Namor");
         mochileira.setCpf("456");
 
@@ -21,5 +21,10 @@ public class Main {
         Turista pessoaTurista = new Turista(nome);
 
         System.out.println(pessoaTurista.getNome());
+
+        String cpf = JOptionPane.showInputDialog("entre com cpf");
+
+        pessoaTurista.setCpf(cpf);
+        System.out.println(pessoaTurista.getCpf());
     }
 }
