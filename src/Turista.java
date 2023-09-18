@@ -5,8 +5,11 @@ public class Turista {
     private String cpf;
     //construtor
     Turista(){}
-    Turista(String _nome){
+
+    turista(string _nome) {this.nome = ; }
+    Turista(String _nome, String _cpf){
         this.nome = _nome;
+        this.cpf = _cpf;
 
     }
     //metodos
@@ -18,7 +21,7 @@ public class Turista {
     public String getNome() {
         return nome;
     }
-
+    //sobrecarga do construtor
     public void setNome(String nome) {
         // validar nome
         this.nome = nome;
