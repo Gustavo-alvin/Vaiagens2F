@@ -25,6 +25,10 @@ public class Main {
         String cpf = JOptionPane.showInputDialog("entre com cpf");
 
         pessoaTurista.setCpf(cpf);
+
+        if(Validacao.cpf(cpf));
         System.out.println(pessoaTurista.getCpf());
+    }else{
+        System.out.println("entre com o cpf");
     }
 }
